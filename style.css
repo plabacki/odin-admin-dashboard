@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: aqua;
+    border: 5px solid black;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:  1fr 1fr;
+}
+
+input{
+    height: 30px;
+    width: 520px;
+    border-radius: 15px;
+}
+.upper_row{
+    background-color: antiquewhite;
+    border: 5px solid black;
+    display: flex;
+    justify-content: space-between;
+
+}
