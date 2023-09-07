@@ -17,6 +17,11 @@ input{
     width: 520px;
     border-radius: 15px;
 }
+
+img {
+    height: 50px;
+    width: 50px;
+}
 .upper_row{
     background-color: antiquewhite;
     border: 5px solid black;
