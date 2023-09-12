@@ -106,10 +106,49 @@ aside {
     border-radius: 15px 0px 0px 15px;
 }
 #announcements_and_treding{
-    background-color: brown;
+    background-color: gainsboro;
     border: 5px solid black;
     grid-area: 2 / 3 / 3 / 4;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 2fr 1fr 2fr;
 }
+#announcements_and_treding h4{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 15px 0px 0px 0px;
+}
+.announcements{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 20px 1fr 20px;
+    grid-template-rows: 120px 120px 160px;
+    border-radius: 15px;
+}
+.announcements div{
+    padding: 30px;
+}
+
+.announcement h5{
+    font-weight: bold;
+    font-size: 1rem;
+}
+.announcement p {
+    color: rgb(114, 112, 112);
+}
+
+#first_announcement{
+    grid-area: 1/ 2 / 2 / 3;
+    border-bottom: 1px solid rgb(114, 112, 112);
+}
+#second_announcement{
+    grid-area: 2 / 2 / 3 / 3;
+    border-bottom: 1px solid rgb(114, 112, 112);
+}
+#third_announcement{
+    grid-area: 3 / 2 / 4 / 3;
+}
+
 input{
     height: 30px;
     width: 620px;
